@@ -1,0 +1,16 @@
+inherited LoginBarSenderFrm_LgXhdpiPh: TLoginBarSenderFrm_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited pnlPrincipal: TPanel
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    inherited Layout3: TLayout
+      Position.Y = 509.000000000000000000
+      Size.Width = 450.000000000000000000
+    end
+    inherited Layout2: TLayout
+      Size.Width = 450.000000000000000000
+    end
+  end
+end

@@ -1,0 +1,19 @@
+inherited LoginBarSenderFrm_LgXhdpiPh: TLoginBarSenderFrm_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited Layout2: TLayout
+    inherited Layout4: TLayout
+      inherited RoundRect3: TRoundRect
+        Opacity = 0.699999988079071000
+        inherited Label1: TLabel
+          TextSettings.Font.StyleExt = {00060000000000000004000000}
+        end
+      end
+    end
+  end
+  inherited StyleBook1: TStyleBook [1]
+  end
+  inherited TabControl1: TTabControl [2]
+  end
+end

@@ -1,0 +1,14 @@
+program SenderBar;
+
+uses
+  Vcl.Forms,
+  BarSender in 'BarSender.pas' {frmBarSender};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmBarSender, frmBarSender);
+  Application.Run;
+end.
